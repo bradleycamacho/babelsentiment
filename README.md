@@ -9,7 +9,7 @@ Edit each file to resize graphs to desired size
 Then simply run the code, from terminal or R studio
 Will generate unsigned, signed, simple, and NRC emotion plots for each text using each avaiable lexicon
 
-Texts and directory structure are included
+Texts and directory structure are included, comments are non-exitent practically. Future versions will combine all scripts into one, and add modularity and simplified size input. 
 
 
 Changelog:
