@@ -35,19 +35,11 @@ plot(
 )
 dev.off()
 
-<<<<<<< HEAD
-png("Plots/Unsigned/Kerrigan/Bing.png", width = 600,height = 300)
-plot(
-  bingInput, 
-  type="l", 
-  main="Kerrigan Bing Analysis", 
-=======
 png("Plots/Unsigned/Kerrigan/Bing.png", width = 1200,height = 700)
 plot(
   bingInput, 
   type="l", 
   main="Bing Analysis", 
->>>>>>> 4fc4c3aa8e4b649a1c48900833802b56581c59c9
   xlab = "Narrative Time", 
   ylab= "Emotional Valence"
 )
@@ -125,13 +117,8 @@ png("Plots/Simple/Kerrigan/syuzhet.png", width = 1200,height = 700)
 simple_plot(syuzhetInput)
 dev.off()
 
-<<<<<<< HEAD
-png("Plots/Simple/Kerrigan/bing.png", width = 800,height = 500)
-simple_plot(bingInput, title = "Kerrigan Bing Plot")
-=======
 png("Plots/Simple/Kerrigan/bing.png", width = 1200,height = 700)
 simple_plot(bingInput, title = "Bing Plot")
->>>>>>> 4fc4c3aa8e4b649a1c48900833802b56581c59c9
 dev.off()
 
 png("Plots/Simple/Kerrigan/afinn.png", width = 1200,height = 700)
