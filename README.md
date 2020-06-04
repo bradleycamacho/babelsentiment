@@ -2,14 +2,14 @@
 
 Very dirty 1.0 version
 
-This will create plots using Sentiment Analysis tools from the Syuzhet package. Necessary packages are not include, install packages mentioned in error messages
+This will create plots using Sentiment Analysis tools from the Syuzhet package. Necessary packages are not include, install packages mentioned as needed.
 
 Usage:
-Edit each file to resize graphs to desired size
-Then simply run the code, from terminal or R studio
-Will generate unsigned, signed, simple, and NRC emotion plots for each text using each avaiable lexicon
+- Edit each .R file to set graph size: ```png("Plots/Simple/Hurley/syuzhet.png", width = 1200,height = 700)```
+- Run code from terminal or program such as R Studio
+- The files will generate unsigned, signed, simple, and NRC emotion plots for each text using each available lexicon
 
-Texts and directory structure are included, comments are non-exitent practically. Future versions will combine all scripts into one, and add modularity and simplified size input. 
+Texts and directory structure are included, but documentation within is practically non-existent. Future versions will combine all scripts into one, add modularity, and simplify size input. 
 
 
 Changelog:
