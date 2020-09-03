@@ -1,6 +1,6 @@
 library(syuzhet)
 
-##tokenizes input and stores sentiment in vectors
+##tokenizes input and stores sentiment in vectors. 
 input <- get_text_as_string("Texts/Hurley.txt")
 iSent <- get_sentences(input)
 
