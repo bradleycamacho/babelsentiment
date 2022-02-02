@@ -7,6 +7,7 @@ syuzhetInput <- get_sentiment(iSent, method="syuzhet")
 bingInput <- get_sentiment(iSent, method="bing")
 nrcInput <- get_sentiment(iSent, method="nrc", lang = "english")
 afinnInput <- get_sentiment(iSent, method="afinn")
+mklsadmfoiwq3r
 
 ##signed head of all vectors
 x <- (rbind(
